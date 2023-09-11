@@ -1,0 +1,66 @@
+/* Common Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    padding: 10px;
+    text-align: center;
+    background-color: #b700a8;
+    border-bottom: 1px solid #ddd;
+}
+
+nav a:hover {
+    background-color: #f80000;
+}
+
+/* Horizontal Navigation Bar */
+.horizontal-navbar {
+    background-color: #333;
+}
+
+.horizontal-navbar ul {
+    display: flex;
+    justify-content: center;
+}
+
+.horizontal-navbar li {
+    flex: 1;
+}
+
+/* Vertical Navigation Bar */
+.vertical-navbar {
+    background-color: #f0f0f0;
+    width: 200px;
+}
+
+.vertical-navbar ul {
+    padding-left: 0;
+}
+
+.vertical-navbar li {
+    border-bottom: 1px solid #ddd;
+}
+
+.vertical-navbar a {
+    display: block;
+}
+
+.vertical-navbar a:hover {
+    background-color: #ccc;
+}
